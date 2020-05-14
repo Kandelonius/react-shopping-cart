@@ -14,7 +14,7 @@ function App() {
 	const addItem = item => {
 		// add the given item to the cart
 		// item.preventDefault();
-		setCart(item); 
+		setCart([...cart, item]); 
 	};
 
 	return (
