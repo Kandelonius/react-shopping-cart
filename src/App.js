@@ -31,6 +31,8 @@ function App() {
 			{/* 3 After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly! */}
 
 			{/* 6 Let's go ahead and bring our newly created CartContext into our App.js and wrap all of our components inside of our CartContext.Provider. Make sure our ProductContext.Provider is still the root provider. */}
+			{/* 6 Now pass a value prop to our CartContext.Provider, this value prop is going to contain our cart state. */}
+			
 			<CartContext.Provider value={[cart]}>
 				<ProductContext.Provider value={{ products, addItem }}>
 					<Navigation />
