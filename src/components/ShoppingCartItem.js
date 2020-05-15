@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Item = props => {
-	console.log('in SCI ', props);
+	// console.log('in SCI ', props);
 	return (
 		<div className="shopping-cart_item">
 			<img src={props.image} alt={`${props.title} book`} />
