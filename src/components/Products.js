@@ -9,7 +9,7 @@ import { ProductContext } from '../contexts/ProductContext';
 
 
 const Products = () => {
-	const {products, addItem} = useContext(ProductContext);
+	const { products, addItem } = useContext(ProductContext);
 	
 	// Now that we have all of the data we need we can refactor our Products component from using props.
 	// To do so we just need to remove every instance of props.

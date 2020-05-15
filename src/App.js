@@ -34,7 +34,7 @@ function App() {
 			{/* 6 Now pass a value prop to our CartContext.Provider, this value prop is going to contain our cart state. */}
 
 			<ProductContext.Provider value={{ products, addItem }}>
-				<CartContext.Provider value={[cart]}>
+				<CartContext.Provider value={cart}>
 					<Navigation />
 					{/* </ProductContext.Provider>
 			</CartContext.Provider> */}
